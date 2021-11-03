@@ -13,6 +13,9 @@
 		CCE04F6F27325E3400087609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE04F6D27325E3400087609 /* Main.storyboard */; };
 		CCE04F7127325E3500087609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE04F7027325E3500087609 /* Assets.xcassets */; };
 		CCE04F7427325E3500087609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE04F7227325E3500087609 /* LaunchScreen.storyboard */; };
+		CCE04F812732666900087609 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCE04F7E2732666900087609 /* Cairo-SemiBold.ttf */; };
+		CCE04F822732666900087609 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCE04F7F2732666900087609 /* Cairo-Regular.ttf */; };
+		CCE04F832732666900087609 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCE04F802732666900087609 /* Cairo-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CCE04F7027325E3500087609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE04F7327325E3500087609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCE04F7527325E3500087609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE04F7E2732666900087609 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		CCE04F7F2732666900087609 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		CCE04F802732666900087609 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		CCE04F6627325E3400087609 /* AdaptiveInterfaces */ = {
 			isa = PBXGroup;
 			children = (
+				CCE04F8427326EE000087609 /* Controllers */,
+				CCE04F7C2732659300087609 /* Resources */,
+				CCE04F7B2732658C00087609 /* Model */,
 				CCE04F6727325E3400087609 /* AppDelegate.swift */,
 				CCE04F6927325E3400087609 /* SceneDelegate.swift */,
-				CCE04F6B27325E3400087609 /* ViewController.swift */,
 				CCE04F6D27325E3400087609 /* Main.storyboard */,
 				CCE04F7027325E3500087609 /* Assets.xcassets */,
 				CCE04F7227325E3500087609 /* LaunchScreen.storyboard */,
 				CCE04F7527325E3500087609 /* Info.plist */,
 			);
 			path = AdaptiveInterfaces;
+			sourceTree = "<group>";
+		};
+		CCE04F7B2732658C00087609 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCE04F7C2732659300087609 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCE04F7D273265A300087609 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCE04F7D273265A300087609 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CCE04F802732666900087609 /* Cairo-Bold.ttf */,
+				CCE04F7F2732666900087609 /* Cairo-Regular.ttf */,
+				CCE04F7E2732666900087609 /* Cairo-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CCE04F8427326EE000087609 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCE04F6B27325E3400087609 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +166,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCE04F812732666900087609 /* Cairo-SemiBold.ttf in Resources */,
 				CCE04F7427325E3500087609 /* LaunchScreen.storyboard in Resources */,
 				CCE04F7127325E3500087609 /* Assets.xcassets in Resources */,
 				CCE04F6F27325E3400087609 /* Main.storyboard in Resources */,
+				CCE04F832732666900087609 /* Cairo-Bold.ttf in Resources */,
+				CCE04F822732666900087609 /* Cairo-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
